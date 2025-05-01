@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to Mithun Technologie</h1>
-<h1 align="center">Phone Number: +91 9980923215 MAY 1st</h1>
+<h1 align="center">Phone Number: +91 9980923216 MAY 1st</h1>
 <h1 align="center">Mithun Technologies is a Very Good Training Center for DevOps, Cloud, Kubernetes and Terraform</h1>
 
 <h1 align="center">Trainer Name: Bhaskar Reddy Lacchannagari</h1>
