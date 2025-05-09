@@ -1,0 +1,21 @@
+node 
+{
+def mavenhome=tool name:"maven-3.9.9"
+stage('git checkout')
+{
+git branch: 'development', credentialsId: '17dbaae3-8a78-4b42-9fee-3e473aabebbe', url: 'https://github.com/rekhasrinivas777/maven-web-application.git'
+}
+stage('build')
+{
+sh "${mavenhome}/bin/mvn clean package"
+}
+stage('compile')
+{
+sh "${mavenhome}/bin/mvn clean compile"
+}
+stage('deploy to nexus')
+{
+sh "${mavenhome}/bin/mvn clean deploy"
+}
+
+}//node ending
